@@ -1,4 +1,4 @@
-const imageArea = document.querySelector(".container");
+const imageArea = document.querySelector(".column-wrapper");
 const button = document.querySelector("button");
 
 button.addEventListener("click", function() {
