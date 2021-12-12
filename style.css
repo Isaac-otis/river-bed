@@ -71,7 +71,7 @@ button {
   text-align: center;
   display: inline-block;
   margin: 4px 2px;
-  max-width: 100px;
+  max-width: auto;
   transform: scaleX(-1.2);
 }
 .column-wrapper {
