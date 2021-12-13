@@ -28,38 +28,38 @@ video {
 
 h1 {
   font-family: "Roboto Mono", monospace;
-  font-style: italic;
-  font-size: auto;
-  color: #3626A7;
-  width: initial;
-  opacity: 1;
-  position: relative;
-  left: 50px;
-  transform: scaleX(1.2);
-  line-height: 2;
-}
-h2 {
-  font-family: "Roboto Mono", monospace;
-  font-style: italic;
+  font-style: bold;
   font-size: auto;
   color: #ef3340;
   width: initial;
   opacity: 1;
   position: relative;
   left: 50px;
-  transform: scaleX(1.2);
-  line-height: 3;
+  transform: scaleX(-1.2);
+  line-height: 2;
 }
-h3 {
+h2 {
   font-family: "Roboto Mono", monospace;
-  font-style: italic;
+  font-style: bold;
   font-size: auto;
   color: #809EAC;
   width: initial;
   opacity: 1;
   position: relative;
   left: 50px;
-  transform: scaleX(1.2);
+  transform: scaleX(-1.2);
+  line-height: 3;
+}
+h3 {
+  font-family: "Roboto Mono", monospace;
+  font-style: bold;
+  font-size: auto;
+  color: #3626A7;
+  width: initial;
+  opacity: 1;
+  position: relative;
+  left: 50px;
+  transform: scaleX(-1.2);
   line-height: 1;
 }
 button {
@@ -73,7 +73,7 @@ button {
   display: inline-block;
   margin: 4px 2px;
   max-width: auto;
-  transform: scaleX(-1.2);
+  transform: scaleX(1.2);
 }
 .column-wrapper {
   display: flex;
@@ -100,7 +100,7 @@ button {
   flex-grow: 3;
 }
 .section {
-  background-color: #ffffff;
+  background-color: #00000;
   flex-direction: row;
 }
 
