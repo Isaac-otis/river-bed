@@ -132,7 +132,7 @@ button {
 .ticker-wrap {
   width: 100%;
   padding: 4em;
-  background-color: #39ff14;
+  background-color: coral;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
@@ -171,7 +171,4 @@ button {
   to {
     transform: rotate(360deg);
   }
-}
-.grid {
-  color: white;
 }
