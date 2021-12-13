@@ -18,52 +18,6 @@
     <script src="script.js" defer></script>
   </head>
   <body class="column-wrapper">
-    <header>
-      <div class="ticker">
-        <div class="ticker__list">
-          <div class="ticker__item">
-            <img
-              src="https://cdn.glitch.me/81db1750-2eb8-4cf7-a4ee-9127005e59f5%2FUntitled-1-01.png?v=1639122067871"
-            />
-          </div>
-          <div class="ticker__item">
-            <img
-              src="https://cdn.glitch.me/81db1750-2eb8-4cf7-a4ee-9127005e59f5%2FUntitled-1-02.png?v=1639122072366"
-            />
-          </div>
-          <div class="ticker__item">
-            <img
-              src="https://cdn.glitch.me/81db1750-2eb8-4cf7-a4ee-9127005e59f5%2FUntitled-1-03.png?v=1639122075661"
-            />
-          </div>
-          <div class="ticker__item">
-            <img
-              src="https://cdn.glitch.me/81db1750-2eb8-4cf7-a4ee-9127005e59f5%2FUntitled-1-04.png?v=1639122078661"
-            />
-          </div>
-          <div class="ticker__item">
-            <img
-              src="https://cdn.glitch.me/81db1750-2eb8-4cf7-a4ee-9127005e59f5%2FUntitled-1-05.png?v=1639122081476"
-            />
-          </div>
-          <div class="ticker__item">
-            <img
-              src="https://cdn.glitch.me/81db1750-2eb8-4cf7-a4ee-9127005e59f5%2FUntitled-1-06.png?v=1639122084426"
-            />
-          </div>
-          <div class="ticker__item">
-            <img
-              src="https://cdn.glitch.me/81db1750-2eb8-4cf7-a4ee-9127005e59f5%2FUntitled-1-07.png?v=1639122088595"
-            />
-          </div>
-          <div class="ticker__item">
-            <img
-              src="https://cdn.glitch.me/81db1750-2eb8-4cf7-a4ee-9127005e59f5%2FUntitled-1-08.png?v=1639122091693"
-            />
-          </div>
-        </div>
-      </div>
-    </header>
     <div class="container">
       <button>REMIX</button>
       <div class="rocks">
@@ -87,6 +41,7 @@
           scratches his toes with their feet! Sometimes he isn’t good at his job
           And snarfs a good kiddie or two
         </h3>
+         <button onclick="toggleTheme()">Switch</button>
       </div>
     </div>
   </body>
@@ -119,4 +74,18 @@
       </div>
     </div>
   </div>
+  <section>
+        <div class="pad1">
+            <h1>CSS-swap</h1>
+            <p>Click the buttons to change style</p>
+        </div>
+        <div class="buttons">
+            <div>
+                <button onClick="swapStylesheet('style.css')">1</button>
+            </div>
+            <div>
+                <button onClick="swapStylesheet('light.css')">2</button>
+            </div>
+        </div>
+        </section>
 </html>
