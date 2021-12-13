@@ -17,7 +17,7 @@ body {
   margin: 1rem;
   font-family: sans-serif;
   line-height: 1.5;
-  overflow-x: hidden;
+    overflow-x: hidden;
 }
 
 /* images and videos max out at full width */
@@ -33,7 +33,7 @@ p {
   font-size: 20px;
   color: #ef3340;
   width: initial;
-  opacity: 0.7;
+  opacity: .7;
   position: absolute;
   left: 50px;
   transform: scaleX(1.4);
@@ -137,14 +137,7 @@ button {
     background-repeat: no-repeat;
   }
 }
-@keyframes ticker {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(-100%);
-  }
-}
+
 
 .ticker {
   display: flex;
