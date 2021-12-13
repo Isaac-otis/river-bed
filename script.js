@@ -11,6 +11,9 @@ button.addEventListener("click", function() {
   }
 });
 
-function swapStylesheet(sheet) {
-  document.getElementById("swap").setAttribute("href", sheet);
+function themeSwitch() {
+    var t1 = document.getElementById('theme');
+    var t2 = document.getElementById('alttheme');
+    t1.disabled = !t1.disabled;
+    t2.disabled = !t1.disabled;
 }
