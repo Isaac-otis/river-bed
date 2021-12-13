@@ -26,6 +26,18 @@ video {
   max-width: 50%;
 }
 
+p {
+  font-family: "Roboto Mono", monospace;
+  font-style: italic;
+  font-size: 20px;
+  color: #ef3340;
+  width: initial;
+  opacity: .7;
+  position: absolute;
+  left: 50px;
+  transform: scaleX(1.4);
+  line-height: 2;
+}
 h1 {
   font-family: "Roboto Mono", monospace;
   font-style: italic;
@@ -105,13 +117,9 @@ button {
 }
 
 .ticker-wrap {
-  font-family: "Roboto Mono", monospace;
-  font-style: italic;
   width: 100%;
-  padding: 25px;
+  padding: 4em;
   background-color: coral;
-  color: white;
-  font-size: auto;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
