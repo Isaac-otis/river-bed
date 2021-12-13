@@ -17,7 +17,7 @@ body {
   margin: 1rem;
   font-family: sans-serif;
   line-height: 1.5;
-    overflow-x: hidden;
+  overflow-x: hidden;
 }
 
 /* images and videos max out at full width */
@@ -33,7 +33,7 @@ p {
   font-size: 20px;
   color: #ef3340;
   width: initial;
-  opacity: .7;
+  opacity: 0.7;
   position: absolute;
   left: 50px;
   transform: scaleX(1.4);
@@ -88,6 +88,18 @@ button {
   max-width: auto;
   transform: scaleX(-1.2);
 }
+.buttons {
+  font-family: "Roboto Mono", monospace;
+  font-style: auto;
+  font-size: 15px;
+  color: #ef3340;
+  padding: 10px 10px;
+  text-align: center;
+  display: inline-block;
+  margin: 4px 2px;
+  max-width: auto;
+  transform: scaleY(1.2);
+}
 .column-wrapper {
   display: flex;
   flex-direction: column;
@@ -137,10 +149,9 @@ button {
     background-repeat: no-repeat;
   }
 }
-
-
 .ticker {
   display: flex;
+  justify-content: center;
 }
 .ticker__list {
   display: flex;
@@ -148,4 +159,16 @@ button {
   animation: ticker 1s infinite;
 }
 .ticker__item {
+  animation-name: spin;
+  animation-duration: 12000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
