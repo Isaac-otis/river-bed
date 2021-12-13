@@ -17,6 +17,7 @@ body {
   margin: 1rem;
   font-family: sans-serif;
   line-height: 1.5;
+  overflow-x: hidden;
 }
 
 /* images and videos max out at full width */
@@ -32,7 +33,7 @@ p {
   font-size: 20px;
   color: #ef3340;
   width: initial;
-  opacity: .7;
+  opacity: 0.7;
   position: absolute;
   left: 50px;
   transform: scaleX(1.4);
@@ -154,7 +155,4 @@ button {
   animation: ticker 1s infinite;
 }
 .ticker__item {
-}
-body {
-  overflow-x: hidden;
 }
