@@ -98,7 +98,7 @@ button {
   display: inline-block;
   margin: 4px 2px;
   max-width: auto;
-  transform: scaleY(1.2);
+  transform: scaleY(3);
 }
 .column-wrapper {
   display: flex;
@@ -151,7 +151,7 @@ button {
 }
 .ticker {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
 }
 .ticker__list {
   display: flex;

@@ -5,9 +5,9 @@ button.addEventListener("click", function() {
   imageArea.classList.toggle("h1");
 
   if (imageArea.classList.contains("h1")) {
-    button.innerHTML = "REMIX";
+    button.innerHTML = "DO SOMETHING";
   } else {
-    button.innerHTML = "AGAIN";
+    button.innerHTML = "DO NOTHING";
   }
 });
 
